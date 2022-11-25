@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Form to compete in a race</h1>
+
+    <form action="">
+        <label for="fname">First name</label>
+        <input type="text" id="fname" name="fname" placeholder="José">
+        <label for="sname">Second name</label>
+        <input type="text" id="sname" name="sname" placeholder="Silva">
+        <br>
+        <label for="race">Select race</label>
+        <div>    
+            <label for="5k">Fun run 5k</label>
+            <input type="radio" id="funrun" name="race" value="funrun">
+        </div>
+        <div>    
+            <label for="Half">Half marathon</label>
+            <input type="radio" id="Half" name="race" value="half">
+        </div>
+        <div>    
+            <label for="marathon">Marathon</label>
+            <input type="radio" id="marathon" name="race" value="marathon">
+        </div>
+        <br>
+        <label for="email">Email&#x205A;</label>
+        <input type="email" name="email" id="email">
+
+        <label for="password">Password&#x205A;</label>
+        <input type="password" name="password" id="password">
+        <br>
+        <label for="age">Select age</label>
+        <select name="age" id="age">
+            <option value="18">Under 18</option>
+            <option value="30">Between 18 and 30</option>
+            <option value="60">Between 30 and 60</option>
+            <option value="O60">Over 60</option>
+        </select>
+
+        <button name="subtmit" id="subtmit">Submit</button>
+    </form>
+</body>
+
+</html>
