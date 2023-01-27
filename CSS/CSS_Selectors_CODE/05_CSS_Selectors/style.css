@@ -1,0 +1,45 @@
+body{
+    background-color: #9a8c98;
+}
+
+button{
+    font-size: 30px;
+}
+
+h1, h2{
+    background-color: #f2e9e4;
+}
+
+#log{
+    background-color: #4a4e69;
+}
+
+#sign {
+    background-color:#c9ada7;
+}
+
+span{
+    color: #4a4e69;
+}
+
+.tags{
+    background-color: #f07167;
+    font-size: 21px;
+    color: #e5e5e5;
+}
+
+span a {
+    color: #4a4e69;
+}
+
+footer a{
+    color: #adc178;
+}
+
+h2 + button {
+    font-size: 15px;
+}
+
+input[type="password"]{
+    color: paleturquoise;
+}
