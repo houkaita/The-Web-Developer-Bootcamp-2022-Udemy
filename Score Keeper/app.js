@@ -10,16 +10,22 @@ const p2 = {
     display: document.querySelector('#p2Display')
 }
 
+const content = document.querySelector('.card-content')
 const resetButton = document.querySelector('#Reset')
 const winningScoreSelect = document.querySelector('#playto')
+
 
 let winningScore = 3;
 let isGameOver = false;
 
 function updateScores(player, opponent) {
+
     if(!isGameOver) {
         player.score += 1;
         player.display.textContent = player.score;
+        if(player.score === winningScore-1 && opponent.score===winningScore-1) {            
+            winningScore+=1;
+        }
         if(player.score === winningScore) {
             isGameOver=true;
             player.display.classList.add('has-text-success')
